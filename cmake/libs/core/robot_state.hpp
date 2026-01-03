@@ -1,8 +1,8 @@
 #pragma once
 
 #include <cstdint>
-#include "cmake/libs/core/ids.hpp"
-#include "cmake/libs/core/geometry.hpp"
+#include "core/ids.hpp"
+#include "core/geometry.hpp"
 
 namespace sd {
     // using uint8_t to ensure compiler use 8-bit unsinged integer type across different systems and compilers
@@ -21,6 +21,6 @@ namespace sd {
         RobotMode mode = RobotMode::Idle; // default state 
     };
 
-    
+
 
 }

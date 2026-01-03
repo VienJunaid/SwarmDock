@@ -2,8 +2,8 @@
 
 #include <cstdint>
 
-#include "cmake/libs/core/ids.hpp"
-#include "cmake/libs/core/geometry.hpp"
+#include "core/ids.hpp"
+#include "geometry.hpp"
 
 namespace sd {
     enum class CommandType : std::uint8_t {
@@ -24,3 +24,4 @@ namespace sd {
         TaskId task{};
     };
 }
+
